@@ -40,22 +40,22 @@ calendar.highlight {
 }
 
 .powermenu {
-	border: 3px solid $purple;
+	border: 3px solid $white;
 	background: $background;
 	color: $white;
-	border-radius: 20px;
-	font-size: 40px;
+	border-radius: 15px;
+	font-size: 25px;
 }
 
 .btn {
-	color: $purple;
+	color: $white;
 	border-radius: 20px;
 }
 
 .btn:hover {
-	background: $purple;
+	background: $white;
 	color: $background;
-	border: 3px solid $blue;
+	border: 3px solid $white;
 }
 
 .profile {
@@ -67,9 +67,8 @@ calendar.highlight {
 }
 
 .pfp {
-	border: 3px solid $blue;
+	border: none;
 	border-radius: 50%;
-	background: $red;
 }
 
 .username {
@@ -77,7 +76,7 @@ calendar.highlight {
 	font-weight: bold;
 	font-size: 15;
 	border: 2px solid $white;
-	border-radius: 10px;
+	border-radius: 0px;
 }
 
 .timewindow {

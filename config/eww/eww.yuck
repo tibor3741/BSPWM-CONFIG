@@ -65,7 +65,7 @@
   :geometry (geometry :x "0%"
                       :y "0%"
                       :width "30%"
-                      :height "15%"
+                      :height "5%"
                       :anchor "center center")
   :wm-ignore true
 (powermenucontent))
@@ -83,7 +83,7 @@
 					 :height 150
 					 :halign "center"
 					(image :class "pfp"
-						   :path "~/Képek/pfp.png"
+						   :path "/home/tibor/Képek/pfp.png"
 						   :image-width 80
 					       :image-height 80)))
 			(transform :class "transform-username"
@@ -95,14 +95,14 @@
 					 :hexpand true
 					 :space-evenly false
 					(label :class "username"
-						   :markup "<b> xeoncpu </b>"))))))
+						   :markup "<b> Tibor </b>"))))))
 
 (defwindow profile
 	:geometry (geometry :x "15px"
-						:y "50px"
+						:y "-100px"
 						:width "300px"
 						:height "150px"
-						:anchor "top left")
+						:anchor "center center")
 	:wm-ignore true
 (profilewidget))
 
@@ -139,7 +139,7 @@
 	(box :class "imagebox"
 		 (transform :scale_x "50px"
 			 (image :class "image"
-					:path "~/Képek/picture.png"
+					:path "/home/xeoncpu/Pictures/picture.png"
 					:image-width 140
 					:image-height 140))))
 
